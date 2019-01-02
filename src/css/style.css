@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    font-family: "微軟正黑體", "Microsoft JhengHei", "PingFang TC", Arial,
+        "sans-serif";
+    color: #323237;
+}
+body {
+    background-color: #f8f8f8;
+}
+#root {
+    padding: 3vw;
+    min-width: 320px;
+}
+#root > div {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+#root > div > nav {
+    padding: 0 5vw;
+}
+#root > div > nav > a {
+    padding: 2.5% 5%;
+    border-radius: 7px 7px 0 0;
+}
+#root > div > div {
+    padding: 3vh 5vw;
+    background-color: #fff;
+    border-radius: 5px;
+}
+

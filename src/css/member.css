@@ -1,0 +1,47 @@
+button,
+input {
+    line-height: 2.5rem;
+}
+button {
+    border: solid 1px #eee;
+    border-radius: 50px;
+    color: #999;
+    cursor: pointer;
+    background: #fff;
+    padding: 0 5%;
+}
+button:hover {
+    background-color: #fafafa;
+    color: #666;
+}
+
+#login input {
+    border-bottom: solid 1px #eee;
+    margin-right: 3%;
+}
+@media (max-width: 500px) {
+    #login input {
+        display: block;
+        width: 70%;
+    }
+    #login button {
+        float: right;
+        margin-top: -50px;
+    }
+}
+
+#profile h4,
+#profile span {
+    display: inline-block;
+    padding: 0 2%;
+    font-size: 0.8125rem;
+}
+#profile li>div {
+    padding: 0 2%;
+    display: inline;
+}
+#profile li>div >input{
+    border-bottom: solid 1px #eee;
+    margin-right: 3%;
+    padding-left: 2%;
+}
